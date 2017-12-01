@@ -1,4 +1,4 @@
-# Conflict (1)
+# Conflict
 
 ## Objectives
 In this exercise, you are going to practice conflict resolution on same (master) branch.
