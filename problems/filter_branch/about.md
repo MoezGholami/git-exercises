@@ -1,4 +1,4 @@
-# Changing previous commits
+# Filter-Branch
 
 ## Objectives
 In this problem, you are going to fix some blunders in previous commits and change the previous commits.
@@ -22,6 +22,3 @@ You and Ali are working on an open-source web application. You have some text fi
 
 ## Recap
 In this problem, we noticed that the git is running slow due to a large file in the codebase. We could identify the issue and solve it for ourselves and our teammates. Also, using `.gitignore`, we made sure that no such mistakes will happen. Situations like this are sometimes dangerous as some sensitive data is made public and their solution is dangerous too (especially if we do it wrong) as we are changing the previous commits. In situations like this, we must inform all other teammates and try to fix the issue with the supervision of other teammates if possible.
-
-## Related exercises
-rebase(TODO), ignore(TODO), bisect(TODO)
