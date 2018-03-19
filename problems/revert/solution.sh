@@ -8,10 +8,8 @@
 
     commits_to_revert=20
     # revert as much as you want
-    for cid in $(git rev-list HEAD | head -$commits_to_revert);
-    do
-        git revert --no-commit $cid
-    done
+    cid=$(git rev-list HEAD~$commits_to_revert | head -1)
+    git revert $cid..HEAD --no-commit
     
     # see the status
     git status
